@@ -5,10 +5,10 @@ html(lang='en')
 
         meta(charset='utf-8')
         meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-        meta(name='description', content='')
-        meta(name='author', content='')
+        meta(name='description', content='Servizi di Consulenza Di Immagine, Personal Shopper, Professional Make Up Service, Dermopigmentazione, Lash Maker, Permanent Make Up')
+        meta(name='author', content='Germana Merra')
 
-        title Agency - Start Bootstrap Theme
+        title Germana Merra - Luxury Beauty & Image Consultant
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
@@ -29,31 +29,54 @@ html(lang='en')
         nav#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top
             .container
                 a.navbar-brand(href='#page-top')
-                    img(src='assets/img/navbar-logo.svg', alt='...')
+                    //img(src='assets/img/navbar-logo.svg', alt='...')
+                    img(src='assets/img/logo-stretto.png', alt='Logo Germana Merra')
                 button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu
                     i.fas.fa-bars.ms-1
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.text-uppercase.ms-auto.py-4.py-lg-0
+                        //li.nav-item
+                            a.nav-link(href='#services') Servizi
                         li.nav-item
-                            a.nav-link(href='#services') Services
+                            a.nav-link(href='#portfolio') Consulenza Di Immagine
                         li.nav-item
-                            a.nav-link(href='#portfolio') Portfolio
+                            a.nav-link(href='#portfolio2') Luxury Beatuy Services
                         li.nav-item
-                            a.nav-link(href='#about') About
+                            a.nav-link(href='#about') Chi Sono
                         li.nav-item
-                            a.nav-link(href='#team') Team
+                            a.nav-link(href='#team') Partner
                         li.nav-item
-                            a.nav-link(href='#contact') Contact
+                            a.nav-link(href='#contact') Contatti
         // Masthead
         header.masthead
+            .containerWelcome
+                .masthead-subheading
+                //.masthead-heading.text-uppercase Siete pronti a scoprire una nuova versione di voi stessi?
+                .masthead-heading.text-uppercase "lo stile è un modo per raccontare chi sei senza bisogno di parlare"
+                .container
+                    .row
+                        .col-lg-6
+                            .main-section
+                                img.mx-auto(src='assets/img/team/logo_full.png', alt='Logo Germana Merra')
+                        .col-lg-6
+                            .main-section
+                                img.mx-auto.rounded-circle(src='assets/img/team/foto_profilo.png', alt='Foto Germana Merra')
+                //a.btn.btn-primary.btn-xl.text-uppercase(href='#services') Tell Me More
+
+        // Main Section
+        //section.page-section.bg-light
             .container
-                .masthead-subheading Welcome To Our Studio!
-                .masthead-heading.text-uppercase It's Nice To Meet You
-                a.btn.btn-primary.btn-xl.text-uppercase(href='#services') Tell Me More
+                .row
+                    .col-lg-6
+                        .main-section
+                            img.mx-auto(src='assets/img/team/logo_full.png', alt='Logo Germana Merra')
+                    .col-lg-6
+                        .main-section
+                            img.mx-auto.rounded-circle(src='assets/img/team/foto_profilo.png', alt='Foto Germana Merra')
 
         // Services
-        section#services.page-section
+        //section#services.page-section
             .container
                 .text-center
                     h2.section-heading.text-uppercase Services
@@ -82,11 +105,11 @@ html(lang='en')
                             | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
 
         // Portfolio Grid
-        section#portfolio.page-section.bg-light
+        section#portfolio.portfolio.page-section.bg-light
             .container
                 .text-center
-                    h2.section-heading.text-uppercase Portfolio
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h2.section-heading.text-uppercase Consulenza di Immagine
+                    //h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
                 .row
                     .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 1
@@ -95,10 +118,10 @@ html(lang='en')
                                 .portfolio-hover
                                     .portfolio-hover-content
                                         i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/1.jpg', alt='...')
+                                img.img-fluid(src='assets/img/portfolio/armocromia.jpg', alt='Armocromia')
                             .portfolio-caption
-                                .portfolio-caption-heading Threads
-                                .portfolio-caption-subheading.text-muted Illustration
+                                .portfolio-caption-heading Armocromia
+                                .portfolio-caption-subheading.text-muted Analisi del Colore
                     .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 2
                         .portfolio-item
@@ -106,10 +129,32 @@ html(lang='en')
                                 .portfolio-hover
                                     .portfolio-hover-content
                                         i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/2.jpg', alt='...')
+                                img.img-fluid(src='assets/img/portfolio/morfologia.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Explore
-                                .portfolio-caption-subheading.text-muted Graphic Design
+                                .portfolio-caption-heading Morofolgoia
+                                .portfolio-caption-subheading.text-muted Analisi dalla Body Shape
+                    .col-lg-4.col-sm-6.mb-4
+                        // Portfolio item 4
+                        .portfolio-item
+                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal4')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/visagismo.jpg', alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Visagismo
+                                .portfolio-caption-subheading.text-muted Analisi delle caratteristiche facciali
+                    .col-lg-4.col-sm-6.mb-4
+                        // Portfolio item 5
+                        .portfolio-item
+                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal5')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/azienda.jpg', alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Consulenza Aziendale
+                                .portfolio-caption-subheading.text-muted Consulenza di Immagine applicata a contesti Azienndali
                     .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 3
                         .portfolio-item
@@ -117,11 +162,34 @@ html(lang='en')
                                 .portfolio-hover
                                     .portfolio-hover-content
                                         i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/3.jpg', alt='...')
+                                img.img-fluid(src='assets/img/portfolio/shopper.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Finish
-                                .portfolio-caption-subheading.text-muted Identity
-                    .col-lg-4.col-sm-6.mb-4.mb-lg-0
+                                .portfolio-caption-heading Personal Shopper
+                                .portfolio-caption-subheading.text-muted Servizio di assistenza e guida all'acquisto di vestiti ed accessori
+                    .col-lg-4.col-sm-6.mb-4
+                        // Portfolio item 6
+                        .portfolio-item
+                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal6')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/restyling.jpg', alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Restyling Guardaroba
+                                .portfolio-caption-subheading.text-muted Servizio di assistenza per la riorganizzazione ecosostenibile del guardaroba
+                .row
+                    .col-lg-8.mx-auto.text-center
+                        p.large.text-muted
+                            | Per ulteriori informazioni non esitare a contattarmi!
+                        a.btn.btn-primary.btn-xl.text-uppercase(href='mailto:germana.mua@gmail.com?subject=Richiesta%20Consulenza') Richiedi Informazionni
+
+        section#portfolio2.portfolio.page-section
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Luxury Beatuy Services
+                    //h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                .row
+                    .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 4
                         .portfolio-item
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal4')
@@ -130,9 +198,9 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/4.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Lines
-                                .portfolio-caption-subheading.text-muted Branding
-                    .col-lg-4.col-sm-6.mb-4.mb-sm-0
+                                .portfolio-caption-heading Weeding Style
+                                .portfolio-caption-subheading.text-muted Servizio di consulenza dedicato agli sposi
+                    .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 5
                         .portfolio-item
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal5')
@@ -141,9 +209,9 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/5.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Southwest
-                                .portfolio-caption-subheading.text-muted Website Design
-                    .col-lg-4.col-sm-6
+                                .portfolio-caption-heading Professional MakeUp Service
+                                .portfolio-caption-subheading.text-muted Servizio di make up professionale per ogni occasione
+                    .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 6
                         .portfolio-item
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal6')
@@ -152,11 +220,48 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/6.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Window
-                                .portfolio-caption-subheading.text-muted Photography
-
+                                .portfolio-caption-heading Permanent MakeUp
+                                .portfolio-caption-subheading.text-muted Servizio di dermopigmentazione facciale
+                    .col-lg-4.col-sm-6.mb-4
+                        // Portfolio item 6
+                        .portfolio-item
+                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal6')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/6.jpg', alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Lash Maker
+                                .portfolio-caption-subheading.text-muted Servizio di laminazione ciglia
+                    .col-lg-4.col-sm-6.mb-4
+                        // Portfolio item 6
+                        .portfolio-item
+                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal6')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/6.jpg', alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Master Skin Care
+                                .portfolio-caption-subheading.text-muted Servizi di consulenza per prendersi cura della propria pelle
+                    .col-lg-4.col-sm-6.mb-4
+                        // Portfolio item 6
+                        .portfolio-item
+                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal6')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/self.jpg', alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Self Make Up
+                                .portfolio-caption-subheading.text-muted Sessioni 1-To-1 per acquisire una corretta esecuzione del make up di tutti i giorni
+                .row
+                    .col-lg-8.mx-auto.text-center
+                        p.large.text-muted
+                            | Per ulteriori informazioni non esitare a contattarmi!
+                        a.btn.btn-primary.btn-xl.text-uppercase(href='mailto:germana.mua@gmail.com?subject=Richiesta%20Servizio%20Beauty') Richiedi Informazionni
         // About
-        section#about.page-section
+        section#about.page-section.bg-light
             .container
                 .text-center
                     h2.section-heading.text-uppercase About
@@ -211,13 +316,15 @@ html(lang='en')
                                 br
                                 | Story!
 
+
+
         // Team
-        section#team.page-section.bg-light
+        section#team.page-section
             .container
                 .text-center
-                    h2.section-heading.text-uppercase Our Amazing Team
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
-                .row
+                    h2.section-heading.text-uppercase I Miei Collaboratori e Partner
+                    h3.section-subheading.text-muted Sono alla ricerca di nuove e fresche collaborazioni che possano stimolare e soddisfare il cliente più esigente!
+                //.row
                     .col-lg-4
                         .team-member
                             img.mx-auto.rounded-circle(src='assets/img/team/1.jpg', alt='...')
@@ -254,10 +361,12 @@ html(lang='en')
                 .row
                     .col-lg-8.mx-auto.text-center
                         p.large.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+                            | Se sei un professionista o azienda che vuole intraprendere una collaborazione o partnership clicca qui!
+                        a.btn.btn-primary.btn-xl.text-uppercase(href='mailto:germana.mua@gmail.com?subject=Richiesta%20Collaborazione') Info Partner
+
 
         // Clients
-        div.py-5
+        //div.py-5
             .container
                 .row.align-items-center
                     .col-md-3.col-sm-6.my-3
@@ -273,111 +382,35 @@ html(lang='en')
                         a(href='#!')
                             img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/ibm.svg', alt='...', aria-label='IBM Logo')
 
-        // Contact
-        section#contact.page-section
+        //Contact
+        section#contact.page-section.bg-light
             .container
                 .text-center
-                    h2.section-heading.text-uppercase Contact Us
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
-
-                // * * * * * * * * * * * * * * *
-                // * * SB Forms Contact Form * *
-                // * * * * * * * * * * * * * * *
-
-                // This form is pre-integrated with SB Forms.
-                // To make this form functional, sign up at
-                // https://startbootstrap.com/solution/contact-forms
-                // to get an API token!
-
-                form#contactForm(data-sb-form-api-token='API_TOKEN')
-                    .row.align-items-stretch.mb-5
-                        .col-md-6
-                            .form-group
-
-                                // Name input
-                                input#name.form-control(
-                                    type='text',
-                                    placeholder='Your Name *',
-                                    data-sb-validations='required'
-                                )
-                                .invalid-feedback(data-sb-feedback='name:required')
-                                    | A name is required.
-
-                            .form-group
-
-                                // Email address input
-                                input#email.form-control(
-                                    type='email',
-                                    placeholder='Your Email *',
-                                    data-sb-validations='required,email'
-                                )
-                                .invalid-feedback(data-sb-feedback='email:required')
-                                    | An email is required.
-                                .invalid-feedback(data-sb-feedback='email:email')
-                                    | Email is not valid.
-
-                            .form-group.mb-md-0
-
-                                // Phone number input
-                                input#phone.form-control(
-                                    type='tel',
-                                    placeholder='Your Phone *',
-                                    data-sb-validations='required'
-                                )
-                                .invalid-feedback(data-sb-feedback='phone:required')
-                                    | A phone number is required.
-
-                        .col-md-6
-                            .form-group.form-group-textarea.mb-md-0
-
-                                // Message input
-                                textarea#message.form-control(
-                                    placeholder='Your Message *',
-                                    data-sb-validations='required'
-                                )
-                                .invalid-feedback(data-sb-feedback='message:required')
-                                    | A message is required.
-
-                    // Submit success message
-                    //
-                    // This is what your users will see when the form
-                    // has successfully submitted
-
-                    #submitSuccessMessage.d-none
-                        .text-center.text-white.mb-3
-                            .fw-bolder Form submission successful!
-                            | To activate this form, sign up at
-                            br
-                            a(href='https://startbootstrap.com/solution/contact-forms') https://startbootstrap.com/solution/contact-forms
-
-                    // Submit error message
-                    //
-                    // This is what your users will see when there is
-                    // an error submitting the form
-
-                    #submitErrorMessage.d-none
-                        .text-center.text-danger.mb-3 Error sending message!
-
-                    // Submit Button
-                    .text-center
-                        button#submitButton.btn.btn-primary.btn-xl.text-uppercase.disabled(type='submit') Send Message
+                    h2.section-heading.text-uppercase Contatti
+                .row.align-items-center
+                    .col-md-3.col-sm-6.my-3.text-end Telefono:
+                    .col-md-3.col-sm-6.my-3 +39-3293875947
+                    .col-md-3.col-sm-6.my-3.text-end E-Mail:
+                    .col-md-3.col-sm-6.my-3 germana.mua@gmail.com
 
         // Footer
         footer.footer.py-4
             .container
                 .row.align-items-center
                     .col-lg-4.text-lg-start
-                        | Copyright &copy; Your Website 2022
+                        | Copyright &copy; Germana Merra 2022
                     .col-lg-4.my-3.my-lg-0
-                        a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Twitter')
-                            i.fab.fa-twitter
-                        a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Facebook')
+                        a.btn.btn-primary.btn-social.mx-2(href='mailto:germana.mua@gmail.com?subject=Richiesta%20Informazioni', aria-label='Mail')
+                            i.far.fa-envelope
+                        a.btn.btn-primary.btn-social.mx-2(href='https://www.instagram.com/germanamerra/', aria-label='Instagram', target='new')
+                            i.fab.fa-instagram
+                        a.btn.btn-primary.btn-social.mx-2(href='https://www.facebook.com/GermanaMakeUpArtist', aria-label='Facebook', target='new')
                             i.fab.fa-facebook-f
-                        a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='LinkedIn')
+                        a.btn.btn-primary.btn-social.mx-2(href='https://it.linkedin.com/in/germanamerra', aria-label='LinkedIn', target='new')
                             i.fab.fa-linkedin-in
                     .col-lg-4.text-lg-end
-                        a.link-dark.text-decoration-none.me-3(href='#!') Privacy Policy
-                        a.link-dark.text-decoration-none(href='#!') Terms of Use
+                        a.link-primary.text-decoration-none.me-3(href='#!') Privacy Policy
+                        a.link-primary.text-decoration-none(href='#!') Cookie Policy
 
         // Portfolio Modals
         include includes/portfolio-modal-1
@@ -398,4 +431,4 @@ html(lang='en')
         // * * Activate your form at https://startbootstrap.com/solution/contact-forms * *
         // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-        script(src='https://cdn.startbootstrap.com/sb-forms-latest.js')
+        //script(src='https://cdn.startbootstrap.com/sb-forms-latest.js')
