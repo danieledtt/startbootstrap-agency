@@ -29,6 +29,12 @@ header.masthead {
         margin-bottom: 2rem;
         font-family: $headings-font-family;
     }
+
+    .citazione {
+        color: $primary;
+        font-weight: 300;
+    }
+
 }
 
 @include media-breakpoint-up(md) {
@@ -48,6 +54,11 @@ header.masthead {
             font-weight: 700;
             line-height: 4.5rem;
             margin-bottom: 4rem;
+        }
+
+        .citazione {
+            color: $primary;
+            font-weight: 300;
         }
     }
 }

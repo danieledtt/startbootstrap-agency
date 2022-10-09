@@ -38,13 +38,13 @@ html(lang='en')
                     ul.navbar-nav.text-uppercase.ms-auto.py-4.py-lg-0
                         //li.nav-item
                             a.nav-link(href='#services') Servizi
-                        //li.nav-item
+                        li.nav-item
                             a.nav-link(href='#portfolio') Consulenza Di Immagine
-                        //li.nav-item
+                        li.nav-item
                             a.nav-link(href='#portfolio2') Luxury Beatuy Services
-                        //li.nav-item
+                        li.nav-item
                             a.nav-link(href='#about') Chi Sono
-                        //li.nav-item
+                        li.nav-item
                             a.nav-link(href='#team') Partner
                         li.nav-item
                             a.nav-link(href='#contact') Contatti
@@ -53,7 +53,7 @@ html(lang='en')
             .containerWelcome
                 .masthead-subheading
                 //.masthead-heading.text-uppercase Siete pronti a scoprire una nuova versione di voi stessi?
-                .masthead-heading.text-uppercase "lo stile è un modo per raccontare chi sei senza bisogno di parlare"
+                .masthead-heading.text-uppercase.citazione "lo stile è un modo per raccontare chi sei senza bisogno di parlare"
                 .container
                     .row
                         .col-lg-6
@@ -64,16 +64,6 @@ html(lang='en')
                                 img.mx-auto.rounded-circle(src='assets/img/team/foto_profilo.png', alt='Foto Germana Merra')
                 //a.btn.btn-primary.btn-xl.text-uppercase(href='#services') Tell Me More
 
-        // Main Section
-        //section.page-section.bg-light
-            .container
-                .row
-                    .col-lg-6
-                        .main-section
-                            img.mx-auto(src='assets/img/team/logo_full.png', alt='Logo Germana Merra')
-                    .col-lg-6
-                        .main-section
-                            img.mx-auto.rounded-circle(src='assets/img/team/foto_profilo.png', alt='Foto Germana Merra')
 
         // Services
         //section#services.page-section
@@ -104,8 +94,8 @@ html(lang='en')
                         p.text-muted
                             | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
 
-        // Portfolio Grid
-        //section#portfolio.portfolio.page-section.bg-light
+        // Consulenza di Immagine
+        section#portfolio.portfolio.page-section.bg-light
             .container
                 .text-center
                     h2.section-heading.text-uppercase Consulenza di Immagine
@@ -183,7 +173,8 @@ html(lang='en')
                             | Per ulteriori informazioni non esitare a contattarmi!
                         a.btn.btn-primary.btn-xl.text-uppercase(href='mailto:germana.mua@gmail.com?subject=Richiesta%20Consulenza') Richiedi Informazionni
 
-        //section#portfolio2.portfolio.page-section
+        //Luxury Beatuy Services
+        section#portfolio2.portfolio.page-section
             .container
                 .text-center
                     h2.section-heading.text-uppercase Luxury Beatuy Services
@@ -260,8 +251,9 @@ html(lang='en')
                         p.large.text-muted
                             | Per ulteriori informazioni non esitare a contattarmi!
                         a.btn.btn-primary.btn-xl.text-uppercase(href='mailto:germana.mua@gmail.com?subject=Richiesta%20Servizio%20Beauty') Richiedi Informazionni
-        // About
-        //section#about.page-section.bg-light
+
+        // Chi sono
+        section#about.page-section.bg-light
             .container
                 .text-center
                     h2.section-heading.text-uppercase About
@@ -317,9 +309,8 @@ html(lang='en')
                                 | Story!
 
 
-
-        // Team
-        //section#team.page-section
+        // Partner
+        section#team.page-section
             .container
                 .text-center
                     h2.section-heading.text-uppercase I Miei Collaboratori e Partner
@@ -413,7 +404,7 @@ html(lang='en')
                         a.link-primary.text-decoration-none(href='#!') Cookie Policy
 
         // Portfolio Modals
-        include includes/portfolio-modal-1
+        include includes/ci-armocromia
         include includes/portfolio-modal-2
         include includes/portfolio-modal-3
         include includes/portfolio-modal-4

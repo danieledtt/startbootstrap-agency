@@ -11436,6 +11436,10 @@ header.masthead .masthead-heading {
   margin-bottom: 2rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+header.masthead .citazione {
+  color: #060485;
+  font-weight: 300;
+}
 
 @media (min-width: 768px) {
   header.masthead {
@@ -11453,6 +11457,10 @@ header.masthead .masthead-heading {
     font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: 4rem;
+  }
+  header.masthead .citazione {
+    color: #060485;
+    font-weight: 300;
   }
 }
 .portfolio .portfolio-item {
