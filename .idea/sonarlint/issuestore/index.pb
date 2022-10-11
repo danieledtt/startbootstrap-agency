@@ -50,8 +50,6 @@ G
 scripts/build-assets.js,a\e\ae6731b75bf5f4a6c4c8c3afcef545fe3b9df9dc
 F
 scripts/render-scss.js,b\4\b43606e157575b1b7ef18a1bb018de5592d0c44d
-A
-src/js/scripts.js,5\a\5a8bacfdf805a6f5ae0eb726d47c4adb0c5d0359
 Q
 !src/scss/sections/_portfolio.scss,3\3\33dfc1885c17bf23e06b720a49a2775046c34671
 C
